@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.manage_cms.GridFsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.xuecheng.manage_cms.GridFsTest
+testStore(com.xuecheng.manage_cms.GridFsTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\Administrator\Desktop\course.ftl (系统找不到指定的文件。)
+	at com.xuecheng.manage_cms.GridFsTest.testStore(GridFsTest.java:46)
+

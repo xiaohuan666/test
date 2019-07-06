@@ -1,0 +1,5 @@
+com\xuecheng\search\service\EsCourseService.class
+com\xuecheng\search\config\ElasticsearchConfig.class
+com\xuecheng\search\service\impl\EsCourseServiceImpl.class
+com\xuecheng\search\SearchApplication.class
+com\xuecheng\search\controller\EsCourseController.class

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.search.TestSearch
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 16.048 s <<< FAILURE! - in com.xuecheng.search.TestSearch
+testSearchAll(com.xuecheng.search.TestSearch)  Time elapsed: 2.519 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/127.0.0.1:9201]
+	at com.xuecheng.search.TestSearch.testSearchAll(TestSearch.java:60)
+Caused by: java.net.ConnectException: Timeout connecting to [/127.0.0.1:9201]
+
+testSearchPage(com.xuecheng.search.TestSearch)  Time elapsed: 2.011 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/127.0.0.1:9200]
+	at com.xuecheng.search.TestSearch.testSearchPage(TestSearch.java:89)
+Caused by: java.net.ConnectException: Timeout connecting to [/127.0.0.1:9200]
+
+testSearchbool(com.xuecheng.search.TestSearch)  Time elapsed: 2.058 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/127.0.0.1:9201]
+	at com.xuecheng.search.TestSearch.testSearchbool(TestSearch.java:136)
+Caused by: java.net.ConnectException: Timeout connecting to [/127.0.0.1:9201]
+

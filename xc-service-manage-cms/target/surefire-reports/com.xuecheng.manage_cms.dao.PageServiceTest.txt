@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.manage_cms.dao.PageServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.xuecheng.manage_cms.dao.PageServiceTest
+testGetPageHtml(com.xuecheng.manage_cms.dao.PageServiceTest)  Time elapsed: 0 s  <<< ERROR!
+com.xuecheng.framework.exception.CustomException
+	at com.xuecheng.manage_cms.dao.PageServiceTest.testGetPageHtml(PageServiceTest.java:24)
+
